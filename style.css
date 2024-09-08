@@ -1,0 +1,145 @@
+        /* Default CSS */
+
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        /* Header CSS */
+
+        header {
+            height: 100px;
+            padding: 0 10%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: white;
+        }
+
+        header {
+            font-family: "Poppins", sans-serif;
+        }
+
+        /* Website Logo and name CSS */
+
+        /* Website Logo */
+
+        .icon {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .logo img {
+            height: 100px;
+            /* width: 40px; */
+        }
+
+        /* Website Name */
+
+        .webname {
+            font-size: 1.8rem;
+            color: black;
+            font-weight: bold;
+        }
+
+        /* Navigation Links */
+
+        .links {
+            display: flex;
+            gap: 20px;
+        }
+
+        .links a {
+            text-decoration: none;
+            color: black;
+            font-size: 1.1rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .links a img {
+            width: 15px;
+        }
+
+        .links a:hover {
+            text-decoration: underline;
+        }
+
+        /*z Login and Sign up button */
+
+        .logstatus {
+            display: flex;
+            gap: 10px;
+        }
+
+        .logstatus a {
+            text-decoration: none;
+            color: black;
+        }
+
+        .logstatus button {
+            color: black;
+        }
+
+        .logstatus button:hover {
+            opacity: 0.7;
+        }
+
+        .loginbtn button {
+            font-size: 1.2rem;
+            padding: 5px 10px;
+            color: black;
+            background-color: transparent;
+            border: none;
+            cursor: pointer;
+        }
+
+        .signupbtn button {
+            font-size: 1.2rem;
+            padding: 5px 10px;
+            color: white;
+            background-color: black;
+            border: 2px solid black;
+            border-radius: 25px;
+            cursor: pointer;
+        }
+
+        main {
+            padding: 0 10%;
+        }
+
+        h1 {
+            color: #4CAF50;
+        }
+
+        h2 {
+            color: #FF5733;
+        }
+
+        p {
+            line-height: 1.6;
+        }
+
+        ul {
+            list-style-type: square;
+            color: #900C3F;
+            padding: 0 20px;
+        }
+
+        li {
+            line-height: 1.6;
+        }
+
+        pre {
+            line-height: 1.6;
+        }
+
+        code {
+            background: #e8e8e8;
+            padding: 2px 4px;
+            border-radius: 4px;
+            color: #C70039;
+        }
